@@ -1,0 +1,60 @@
+
+li.notepad-infos{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 14px 0 rgba(0,0,0,0.1);
+  padding: 20px 20px 10px 20px;
+}
+
+li.notepad-infos div{
+  display: flex;
+  justify-content: space-between;
+}
+
+li.notepad-infos strong{
+  display: block;
+  font-size: 16px;
+  color: #333;
+  border-left: 2px solid #acacac;
+  padding: 2px 0 2px 12px;
+  width: 90%;
+}
+
+li.notepad-infos div div{
+  color: #ffeae6;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+li.notepad-infos div div:hover{
+  color: #eb8f7a;
+  transition: 0.2s;
+}
+
+li.notepad-infos textarea{
+  padding: 7px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 130px;
+  font-size: 14px;
+  border: 0;
+  color: #666; 
+  background: #fff;
+  resize: none;
+}
+
+li.notepad-infos textarea:hover{
+  cursor: default;
+} 
+
+li.notepad-infos span{
+  color: #ffeae6;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+li.notepad-infos span:hover{
+  color: #eb8f7a;
+  transition: 0.2s;
+}
